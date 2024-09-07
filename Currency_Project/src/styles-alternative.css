@@ -1,0 +1,94 @@
+/* styles-alternative.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #e0f7fa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #00796b;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.dropdown {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+    font-size: 16px;
+}
+
+.amount {
+    display: flex;
+    flex-direction: column;
+}
+
+.amount label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #00796b;
+    font-size: 16px;
+}
+
+button {
+    padding: 12px;
+    background-color: #004d40;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #003d33;
+}
+
+.msg {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #00796b;
+    text-align: center;
+}
+
+#flag {
+    display: block;
+    margin: 20px auto;
+    width: 80px;
+    height: 80px;
+}
